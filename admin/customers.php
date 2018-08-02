@@ -1,10 +1,8 @@
 <!DOCTYPE html>
  <html >
  <?php
-include "layout/head.php"
-  ?>
- <?php
- include "layout/nav.php"
+    include "layout/head.php";
+    include "layout/nav.php";
   ?>
 
  <!-- Content -->
@@ -57,5 +55,5 @@ include "layout/head.php"
                       ?>
  </div>
  <?php
-include"layout/footer.php"
+    include "layout/footer.php"
   ?>

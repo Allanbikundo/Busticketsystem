@@ -1,4 +1,7 @@
 <?php
+
+//replace this with switch cases please 
+
 $a = 1;
 $column = 1;
 do {

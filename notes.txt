@@ -1,0 +1,13 @@
+Things to do
+General
+1. Make sure all the assets are in one folder i.e The asset folder
+2. Add a git ignore file -for items inside the dp folder and also vendor items
+3. fix all vendor and make sure to use composer.json
+
+Admin Side
+
+1. Ramp up the admin site
+2. Shorten and optimize code
+3. Revamp company manager registration
+
+Client Side

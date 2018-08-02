@@ -59,7 +59,6 @@ include 'layout/nav.php';
                     <?php if (!isset($_GET['return'])) {?>
                       <div class="col-md-6">
                           <p class="lead"><?php echo $row["price"].' KSHS';?></p>
-                          <?php// echo "return is off"; ?>
                       </div>
                       <div class="col-md-6">
                           <a class="btn btn-success" href="cartAction.php?action=addToCart&id=<?php echo $row["id"]; ?>">Add to cart</a>
@@ -71,7 +70,7 @@ include 'layout/nav.php';
             </div>
         </div>
 
-        <?php } }else{ ?>
+        <?php } } else{ ?>
         <p>Our Christopher Colombus has not yet discovered that area</p>
         <?php }
       }
